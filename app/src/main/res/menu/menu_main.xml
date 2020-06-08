@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.simon.gamebacklog.ui.MainActivity">
+    <item
+        android:id="@+id/delete_games"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:iconTint="@android:color/white"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/delete_all_games" />
+</menu>
